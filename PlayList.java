@@ -95,7 +95,7 @@ class PlayList {
 
         } else { if (i >= 0 && i < maxSize && size != maxSize) {
             int j = size;
-            while (j != i - 1) {
+            while (j != i) {
                 tracks[j] = tracks[j - 1]; 
                 j--;
             }
